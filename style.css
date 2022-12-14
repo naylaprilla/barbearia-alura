@@ -1,0 +1,59 @@
+/*Cada uma dessas tags é vista como uma caixa e pode receber modificações de estilo*/
+
+body {
+
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #cccccc;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    /* height: 150px;
+    border: 10px solid #000000;
+    padding-top: 20px; -serve para inserir um espaçamento interno no bloco do elemento
+    margin: 40px; -serve para inserir um espaçamento fora no bloco do elemento  */
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: #ff0000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #ffffff;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;/* serve para organizar os itens para que ele ocupe somente o tamanho do conteúdo, mas deixa mexer na largura e espaçamentos*/
+    vertical-align: top;/* por padrao o css alinha de baixo, para mudar isso usamos o top para alinhar com o topo*/
+    width: 20%;
+    margin-right: 15%;/* margem direita*/
+
+}
+
+.beneficios {
+    width: 50%;
+}
